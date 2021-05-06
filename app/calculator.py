@@ -8,3 +8,6 @@ class Calculator():
 
     def multiply(self, value1, value2):
         return value1 * value2
+
+    def division(self, value1, value2):
+        return value1 / value2
