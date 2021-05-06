@@ -27,10 +27,10 @@ jobs:
             pytest
       # Step 4: behave test
       - run:
-          name: behave test/features
+          name: behave test
           command: |
             . venv/bin/activate
-            behave
+            behave test/features
       # Step 5: Sonar cloud report
       - sonarcloud/scan
 workflows:
