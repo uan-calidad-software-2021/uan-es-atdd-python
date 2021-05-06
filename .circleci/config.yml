@@ -27,7 +27,7 @@ jobs:
             pytest
       # Step 4: behave test
       - run:
-          name: behave test
+          name: behave test/features
           command: |
             . venv/bin/activate
             behave

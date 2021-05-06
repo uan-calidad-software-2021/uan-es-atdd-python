@@ -1,5 +1,5 @@
 from behave import *
-from calculator import *
+from app.calculator import *
 
 @given('a {values} to sum')
 def step_impl(context, values):

@@ -1,4 +1,4 @@
-from calculator import *
+from app import Calculator
 
 
 class TestCalculator:
@@ -12,5 +12,6 @@ class TestCalculator:
         assert calculator.subtract(4, 2) == 2
 
     def test_multiply(self):
+
         calculator = Calculator()
         assert calculator.multiply(2, 3) == 6
